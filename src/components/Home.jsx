@@ -2,7 +2,7 @@ import Me from "../assets/Me.png";
 
 export default function Home() {
   return (
-    <div className="px-10 md:px-32 flex flex-col lg:flex-row items-center min-h-[60vh]">
+    <div className="px-10 md:px-32 flex flex-col lg:flex-row items-center min-h-[60vh] pt-32" id="home">
       <div>
         <img src={Me} alt="Me" className="w-full" />
       </div>

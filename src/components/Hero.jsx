@@ -41,7 +41,7 @@ const tags = [
 
 export default function Hero() {
   return (
-    <div className="flex flex-col py-6 min-h-[80vh] items-center justify-center px-10 md:px-32">
+    <div className="flex flex-col py-6 min-h-[80vh] items-center justify-center px-10 md:px-32" id="about">
       <div className="flex flex-col justify-center mx-auto">
         <h1 className="text-4xl l font-semibold   text-white my-10 leading-[60px]">
           I&rsquo;m a Software engineer
