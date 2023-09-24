@@ -9,7 +9,8 @@ export default function Navbar() {
 
   const handleMobileNav = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
-  };
+  }
+  
   return (
     <nav className="flex items-center md:px-10 p-5 text-white fixed w-full bg-[#111827] z-50">
       <div>

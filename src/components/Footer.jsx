@@ -13,7 +13,7 @@ export default function Footer() {
       </div>
       <div className="flex items-center space-x-10">
         <a
-          href=""
+          href="https://twitter.com/salskhal"
           target="blank"
           className="flex items-center space-x-2 text-lg font-semibold"
         >
@@ -21,14 +21,14 @@ export default function Footer() {
         </a>
 
         <a
-          href=""
+          href="https://www.linkedin.com/in/salskhal/"
           target="blank"
           className="flex items-center space-x-2 text-lg font-semibold"
         >
           <img src={linkedin} alt="linkedin" className="w-6 cursor-pointer" />
         </a>
         <a
-          href=""
+          href="https://github.com/salskhal"
           target="blank"
           className="flex items-center space-x-2 text-lg font-semibold"
         >
