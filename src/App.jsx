@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Project from "./components/Projects/Project";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader/Preloader";
+import CTA from "./components/CTA";
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -31,6 +32,7 @@ export default function App() {
       <Hero />
       <Experience />
       <Project />
+      <CTA />
       <Footer />
     </m.div>
   );
