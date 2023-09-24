@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience/Experience";
 import Project from "./components/Projects/Project";
+import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="min-h-screen bg-[#111827]">
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <Experience />
       <Project />
+      <Footer />
     </div>
   );
 }

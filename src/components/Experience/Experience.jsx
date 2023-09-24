@@ -50,10 +50,10 @@ export default function Experience() {
               key={work.id}
             >
               <h3 className="text-3xl font-bold text-white">{work.title}</h3>
-              <h4 className="text-xl font-semibold text-[#7127BA]">
+              <h4 className="text-xl font-semibold text-gray-300">
                 {work.company}
               </h4>
-              <h5 className="text- font-semibold text-[#7127BA]">
+              <h5 className="text- font-semibold text-gray-500">
                 {work.date}
               </h5>
               {/* <p className="text-white">{work.desc}</p> */}

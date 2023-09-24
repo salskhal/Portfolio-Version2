@@ -35,9 +35,9 @@ export default function Navbar() {
               About
             </li>
           </a>
-          <a href="#work">
+          <a href="#projects">
             <li className="border-b-2 border-transparent hover:border-white cursor-pointer">
-              Work
+              Projects
             </li>
           </a>
         </ul>
