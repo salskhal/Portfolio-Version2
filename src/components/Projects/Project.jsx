@@ -1,6 +1,9 @@
 import sharehub from "../../assets/sharehub.png";
 import unify from "../../assets/unify.png";
 import moviebox from "../../assets/moviebox.png";
+import solarsystem from "../../assets/solarsystem.png";
+import lifeBlog from "../../assets/lifeBlog.png";
+import digitalResume from  "../../assets/digitalResume.png"
 
 const projectsData = [
   {
@@ -24,6 +27,27 @@ const projectsData = [
     visit: "https://movieboxxx.vercel.app/",
     id: 2,
   },
+  {
+    title: "Solar System",
+    image: solarsystem,
+    tags: ["Vue", "JavaScript", "JSON", "CSS-Animation"],
+    visit: "https://solarsys.vercel.app/",
+    id: 3,
+  },
+  {
+    title: "Life and Living Blog",
+    image: lifeBlog,
+    tags: ["Vue", "JavaScript", "Tailwind"],
+    visit: "https://life-and-living.vercel.app/",
+    id: 4,
+  },
+  {
+    title: "Digital Resume",
+    image: digitalResume,
+    tags: ["Vue", "JavaScript", "Tailwind"],
+    visit: "https://sals-digit.netlify.app/",
+    id: 5,
+  }
 ];
 
 export default function Project() {
