@@ -2,7 +2,7 @@ import sharehub from "../../assets/sharehub.png";
 import unify from "../../assets/unify.png";
 import moviebox from "../../assets/moviebox.png";
 import solarsystem from "../../assets/solarsystem.png";
-import lifeBlog from "../../assets/lifeBlog.png";
+import lifeBlog from "../../assets/LifeBlog.png";
 import digitalResume from  "../../assets/digitalResume.png"
 
 const projectsData = [
