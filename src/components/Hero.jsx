@@ -22,6 +22,10 @@ const tags = [
     icon: JavascriptIcon,
   },
   {
+    name: "TypeScript",
+    icon: JavascriptIcon,
+  },
+  {
     name: "Vue.js",
     icon: VueIcon,
   },
@@ -57,13 +61,11 @@ export default function Hero() {
           I&rsquo;m a Software engineer
         </h1>
         <p className="text-2xl md:text-3xl text-[#ABADB2] text-justify leading-10">
-          A frontend-focused software engineer specializing in building dynamic
-          user interfaces using Vue.js and React. Proficient in HTML, CSS, and
-          JavaScript, I create responsive and visually appealing designs. With a
-          strong problem-solving ability and attention to detail, I ensure a
-          seamless and enjoyable user experience. Passionate about learning and
-          staying current with frontend technologies, I embrace new challenges
-          to expand my skillset.
+        A proficient and meticulous Front-end developer familiar with a wide range of
+programming utilities and languages with excellent technical and soft skill
+abilities. Proven experience developing responsive, visually appealing, and userfocused web interfaces that enhance user engagement and deliver significant
+business outcomes using React, Next.js, JavaScript, Typescript, React Native,
+HTML, and CSS.
         </p>
       </div>
       <div className="flex items-center gap-4 justify-center mt-20 flex-wrap">
