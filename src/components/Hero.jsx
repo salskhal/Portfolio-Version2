@@ -29,6 +29,16 @@ const tags = [
     name: "React",
     icon: ReactIcon,
   },
+  
+  {
+    name: "Next.js",
+    icon: ReactIcon,
+  },
+  
+  {
+    name: "React Native",
+    icon: ReactIcon,
+  },
   {
     name: "Node.js",
     icon: NodeIcon,
@@ -58,13 +68,13 @@ export default function Hero() {
       </div>
       <div className="flex items-center gap-4 justify-center mt-20 flex-wrap">
         {tags.map((tag, index) => {
-          const Icon = tag.icon;
+          // const Icon = tag.icon;
           return (
             <div
               key={index}
               className="flex items-center p-2 bg-[#172135] rounded-lg gap-3 "
             >
-              <Icon className="" />
+{/*               <Icon className="" /> */}
               <p className="text-white">{tag.name}</p>
             </div>
           );
