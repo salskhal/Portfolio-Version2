@@ -70,7 +70,7 @@ export default function Project() {
               <h1 className="text-2xl font-semibold text-white">
                 {project.title}
               </h1>
-              <div className="flex flex-wrap mt-5">
+{/*               <div className="flex flex-wrap mt-5">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
@@ -79,7 +79,7 @@ export default function Project() {
                     {tag}
                   </span>
                 ))}
-              </div>
+              </div> */}
               <a
                 href={project.visit}
                 target="_blank"
