@@ -1,6 +1,8 @@
 export default function CTA() {
   return (
-    <div className="px-10  py-24 md:px-32  ">
+    <div className="px-6 md:px-16 lg:px-32 py-24  ">
+      <div className="max-w-7xl mx-auto">
+
       <h1
         className=" font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
         id="contact"
@@ -20,6 +22,7 @@ export default function CTA() {
           Get In Touch
         </button>
       </a>
+      </div>
     </div>
   );
 }
