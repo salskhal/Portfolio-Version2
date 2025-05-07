@@ -1,4 +1,4 @@
-// import Me from "../assets/Me.png";
+8// import Me from "../assets/Me.png";
 
 // export default function Home() {
 //   return (
@@ -489,7 +489,7 @@ export default function Home() {
             <p className="text-xl font-normal text-white flex items-center justify-center lg:justify-start">
               <span className="mr-2">I am a</span>
               <span className="text-[#7127BA] font-medium">
-                Frontend Engineer
+                Fullstack Engineer
               </span>
             </p>
           </div>
@@ -500,7 +500,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.9 }}
           >
-            Detail-oriented Frontend Engineer with 3+ years of experience
+            Detail-oriented Fullstack Engineer with 3+ years of experience
             crafting responsive and accessible applications across web and
             mobile platforms. Specialized in React, React Native, and Next.js
             development with a strong focus on performance optimization and
