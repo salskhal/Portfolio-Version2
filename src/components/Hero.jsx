@@ -44,7 +44,7 @@ export default function Hero() {
           I&rsquo;m a Software engineer
         </h1>
         <p className="text-2xl md:text-3xl text-[#ABADB2] text-justify leading-10">
-          A proficient and meticulous Front-end developer familiar with a wide
+          A proficient and meticulous Fullstack developer familiar with a wide
           range of programming utilities and languages with excellent technical
           and soft skill abilities. Proven experience developing responsive,
           visually appealing, and userfocused web interfaces that enhance user
